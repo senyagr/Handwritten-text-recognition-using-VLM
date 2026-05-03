@@ -1,7 +1,7 @@
 # Handwritten-text-recognition-using-VLM
 
 ## Архитектура
-whiteboard_ocr/
+`whiteboard_ocr/
 │
 ├── pipeline/
 │   ├── pipeline.py        # ← главный оркестратор, базовый класс приложения
@@ -22,7 +22,7 @@ whiteboard_ocr/
 └── utils/
     ├── visualization.py   # bbox + overlay
     ├── latex.py           # проверка/рендер
-
+`
 
 ## Web
 * Загрузка изображение/фото
