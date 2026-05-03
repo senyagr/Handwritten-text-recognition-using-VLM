@@ -20,8 +20,8 @@ whiteboard_ocr/ <br/>
 │   └── run_ocr.py <br/>
 │ <br/>
 └── utils/ <br/>
-    ├── visualization.py   # bbox + overlay <br/>
-    ├── latex.py           # проверка/рендер <br/>
+* ├── visualization.py   # bbox + overlay <br/>
+* ├── latex.py           # проверка/рендер <br/>
 
 
 ## Web
