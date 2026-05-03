@@ -1,7 +1,0 @@
---index-url https://pypi.tuna.tsinghua.edu.cn/simple 
---extra-index-url https://download.pytorch.org/whl/cu128
-streamlit
-surya-ocr
-google-genai
-torch==2.7.1+cu128
-torchvision==0.22.1+cu128
