@@ -2,26 +2,26 @@
 
 ## Архитектура
 whiteboard_ocr/ <br/>
-│
-├── pipeline/
-│   ├── pipeline.py        # ← главный оркестратор, базовый класс приложения
-│   ├── preprocessing.py   # нормализация гистограммы, исправление перспективных искажений
-│   ├── detection.py       # обнаружение регионов
-│   ├── recognition.py     # VLM API
-│   ├── postprocessing.py
-│
-├── configs/
-│   └── config.yaml
-│
-├── ui/
-│   └── streamlit_app.py
-│
-├── cli/
-│   └── run_ocr.py
-│
-└── utils/
-    ├── visualization.py   # bbox + overlay
-    ├── latex.py           # проверка/рендер
+│ <br/>
+├── pipeline/ <br/>
+│   ├── pipeline.py        # ← главный оркестратор, базовый класс приложения <br/>
+│   ├── preprocessing.py   # нормализация гистограммы, исправление перспективных искажений <br/>
+│   ├── detection.py       # обнаружение регионов <br/>
+│   ├── recognition.py     # VLM API <br/>
+│   ├── postprocessing.py <br/>
+│ <br/>
+├── configs/ <br/>
+│   └── config.yaml <br/>
+│ <br/>
+├── ui/ <br/>
+│   └── streamlit_app.py <br/>
+│ <br/>
+├── cli/ <br/>
+│   └── run_ocr.py <br/>
+│ <br/>
+└── utils/ <br/>
+    ├── visualization.py   # bbox + overlay <br/>
+    ├── latex.py           # проверка/рендер <br/>
 
 
 ## Web
